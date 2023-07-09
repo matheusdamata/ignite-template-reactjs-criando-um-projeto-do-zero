@@ -1,1 +1,74 @@
-// TODO
+.homecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.homecontainer button {
+  width: max-content;
+
+  font-weight: 600;
+  color: var(--highlight);
+}
+
+.homecontent {
+  display: flex;
+  flex-direction: column;
+
+  width: 1120px;
+
+  margin: 2rem 0 0;
+  gap: 3rem;
+}
+
+.postlistcontainer {
+  display: flex;
+  flex-direction: column;
+
+  width: 700px;
+
+  gap: 3rem;
+}
+
+.postcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 1.5rem;
+}
+
+.postcontainer h2 {
+  color: var(--heading);
+}
+
+.postcontainer p {
+  color: var(--body);
+}
+
+.postheader {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
+
+.postfooter {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1.5rem;
+}
+
+.postfooter div {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.postfooter span {
+  font-size: 0.875rem;
+  color: var(--info)
+}
